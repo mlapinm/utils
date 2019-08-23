@@ -1,0 +1,9 @@
+
+
+freonpc	..\04install\netbean082.txt
+freonpc	..\04install\netbean083.txt
+freonpc	..\04install\netbean084.txt
+2019-08-23 14:56:10.663600
+
+freonpc	..\04install\netbean085.txt
+2019-08-23 15:03:21.964269

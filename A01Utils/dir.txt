@@ -1,0 +1,16 @@
+.idea
+B03in.txt
+B03out.txt
+B03toTable.py
+B04frTab.py
+B04in.txt
+B04out.txt
+count.txt
+dir.py
+dir.txt
+in01.txt
+lib01.py
+out1.txt
+rm02py.html
+strqu.py
+__pycache__

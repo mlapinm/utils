@@ -1,0 +1,3 @@
+setcpy01.py
+ignore.txt
+huishu01.txt

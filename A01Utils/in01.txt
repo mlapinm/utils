@@ -1,0 +1,19 @@
+actions	действия 
+brief	краткий 
+caret	курсор 
+collapse	свернуть 
+completion	завершение 
+implement	реализовать 
+intention	намерение 
+join	присоединяться 
+lookup	просмотр 
+override	переопределение 
+paste	вставка 
+smart	умный 
+split	расщеплять 
+successively	подряд 
+surround	окружать 
+till	до 
+toggle	тумблер
+toggle
+toggle

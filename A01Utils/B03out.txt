@@ -1,0 +1,44 @@
+<table>
+<tr>
+	<td>actions</td>
+	<td>действия </td>
+	<td>collapse</td>
+	<td>свернуть </td>
+	<td>intention</td>
+	<td>намерение </td>
+	<td>override</td>
+	<td>переопределение </td>
+</tr>
+<tr>
+	<td>brief</td>
+	<td>краткий </td>
+	<td>completion</td>
+	<td>завершение </td>
+	<td>join</td>
+	<td>присоединяться </td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>caret</td>
+	<td>курсор </td>
+	<td>implement</td>
+	<td>реализовать </td>
+	<td>lookup</td>
+	<td>просмотр </td>
+	<td></td>
+	<td></td>
+</tr>
+</table>
+<div style="display: none">
+actions	действия 
+brief	краткий 
+caret	курсор 
+collapse	свернуть 
+completion	завершение 
+implement	реализовать 
+intention	намерение 
+join	присоединяться 
+lookup	просмотр 
+override	переопределение 
+</div>

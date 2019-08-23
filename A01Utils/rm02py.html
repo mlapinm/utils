@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<ol>
+       <li>
+           <p></p>
+           <p><a href="https://mlapinm.github.io/A02Nh/rm36py.html">github rm36py</a></p>
+           <p></p>
+           <p></p>
+           <p></p>
+           <p></p>
+           <p></p>
+           <p></p>
+       </li>
+		<li>
+		<p>copyfiles01</p>
+		<pre>#copyfiles01
+#копируются файлы * - копия в copys\*-tn 
+#получаю список файлов в директории
+#перебираю список
+#если имя файла содержит 'IMG.+копия' 
+#отрезаю 8 символов с конца
+#добавляю -tn.jpg
+#копирую под этим именем в copys\
+
+
+import shutil
+import re
+import os
+
+arrayIs = [
+"IMG_20181120_193706 - копия.jpg",
+]
+arrayTo = [
+"IMG_20181120_193706-tn.jpg",
+]
+
+arrayIs = os.listdir()
+print(arrayIs)
+
+k = 0
+for i in arrayIs:
+	result = re.findall('IMG.+копия',arrayIs[k])
+	print(result)
+	print(len(result))
+	if len(result)>0:
+		str1 = '' + result[0]
+		n = len(str1) - 8
+		print(n)
+		name = str1[0:n]
+		name += "-tn.jpg"
+		print(name)
+		print(i," ")
+		print(arrayIs[k])
+		shutil.copyfile(arrayIs[k],"copys\\" + name)
+	k += 1</pre>
+		<p></p>
+		<p></p>
+		<p></p>	
+		</li>
+		<li>
+		<p>catalog01.py</p>
+		<pre>#catalog01.py
+#dir.txt с содержимым директория
+#получаю список файлов и директориев
+#открываю файл dir.txt на перезапись
+#записываю построчно список файлов в файл dir.txt
+
+import os
+
+file_list = os.listdir()
+print(file_list)
+
+file = open("dir.txt", "w")
+for file_name in file_list:
+	file.write(file_name)
+	file.write("\n")</pre>
+		<p>То же на vbs</p>
+		<pre>'Функция рекурсивного обхода папок
+'в текстовый файл dir.txt выводится 
+'содержимой папок 
+'вложенность отображается пробелами
+
+Set fso = CreateObject("Scripting.FileSystemObject")
+
+'Set objFolder = fso.GetFolder("D:\mailCloud\prjother\011bat\folder")
+Set objFolder = fso.GetFolder(".")
+Dim str1,i0
+Dim i1
+i1 = -1
+'MsgBox objFolder.ShortName
+
+'Wscript.Quit
+'Получаем путь к выбранной папке
+objPath = objFolder.Path
+'Создаем объект папки файловой системы 
+'и отправляем его в рекурсивную функцию
+Set FSO = CreateObject("Scripting.FileSystemObject")
+ShowSubFolders FSO.GetFolder(objPath)
+'ShowFiles FSO.GetFolder(objPath)
+'Сигнализируем о завершении программы
+str1 = str1&vbCrLf&"PROFIT in "&objPath
+'WScript.Echo "PROFIT in " & objPath
+'MsgBox str1
+MsgBox "end"&space1(0)&"end"
+
+i0 = wrFile(str1,"dir.txt")
+
+ 
+'Функция рекурсивного обхода папок
+sub ShowSubFolders(Folder)
+i1 = i1 + 1
+str1 = ""&str1 &""&""&space1(i1)&""&Folder.Name&vbCrLf&""
+ShowFiles Folder
+'Перебираем подпапки
+For Each Subfolder in Folder.SubFolders
+'В каждой подпапке Subfolder делаем нужное нам черное дело
+'Например, выводим её имя
+'   Wscript.Echo Subfolder.Name   
+'Рекурсивно вызываем функцию для подпапок текущей папки
+   ShowSubFolders Subfolder
+'str1 = ""&str1&""
+  Next
+   i1 = i1 - 1
+End Sub
+'возвращает строку с n1 пробелами
+function space1(n1)
+Dim str1
+str1=""	
+For i=0 To n1-1
+str1 = str1&"."	
+Next	
+space1 = str1	
+end function
+
+'пишет str1 файл fileName возвращает всегда 0
+Function wrFile(str1,fileName)
+Dim fso, fileTxt1,iRet
+iRet = 0
+Set fso = CreateObject("Scripting.FileSystemObject")
+'MsgBox fileName 
+Set fileTxt1 = fso.CreateTextFile(fileName, True)
+fileTxt1.Write(str1)
+wrFile = iRet
+End Function
+
+'Функция список файлов
+sub ShowFiles(Folder)
+For Each File  in Folder.Files
+		str1 = ""&amp;str1&amp;File.Name&amp;vbCrLf
+Next
+
+End Sub</pre>
+		<p></p>
+		<p></p>	
+		</li>
+		<li>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>	
+		</li>
+		<li>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>	
+		</li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ol>
+</body>
+</html>

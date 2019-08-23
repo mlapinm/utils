@@ -1,0 +1,52 @@
+<table>
+<tr>
+	<td>actions</td>
+	<td>действия </td>
+	<td>implement</td>
+	<td>реализовать </td>
+	<td>paste</td>
+	<td>вставка </td>
+	<td>till</td>
+	<td>до </td>
+</tr>
+<tr>
+	<td>brief</td>
+	<td>краткий </td>
+	<td>intention</td>
+	<td>намерение </td>
+	<td>smart</td>
+	<td>умный </td>
+	<td>toggle</td>
+	<td>тумблер</td>
+</tr>
+<tr>
+	<td>caret</td>
+	<td>курсор </td>
+	<td>join</td>
+	<td>присоединяться </td>
+	<td>split</td>
+	<td>расщеплять </td>
+	<td>toggle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>collapse</td>
+	<td>свернуть </td>
+	<td>lookup</td>
+	<td>просмотр </td>
+	<td>successively</td>
+	<td>подряд </td>
+	<td>toggle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>completion</td>
+	<td>завершение </td>
+	<td>override</td>
+	<td>переопределение </td>
+	<td>surround</td>
+	<td>окружать </td>
+	<td></td>
+	<td></td>
+</tr>
+</table>
